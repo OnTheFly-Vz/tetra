@@ -1,0 +1,1 @@
+var startDate = input.get('startDate').toString(); var endDate = input.get('endDate').toString(); var formatedStartDate = startDate.replaceAll('-',''); var formatedEndDate = endDate.replaceAll('-',''); input.put('formatedStartDate', formatedStartDate); input.put('formatedStartDate', formatedEndDate); return input;
